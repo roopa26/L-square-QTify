@@ -1,12 +1,10 @@
 import React from 'react';
-import ButtonComponent from "./Components/Button/Button";
-import SearchBar from "./Components/Search/Search";
+import Navbar from './Components/Navbar/Navbar';
 
 function App() {
   return (
     <>
-      <ButtonComponent>Give Feedback</ButtonComponent>
-      <SearchBar placeholder="Search a album of your choice"/>
+      <Navbar/>
     </>
   );
 }
