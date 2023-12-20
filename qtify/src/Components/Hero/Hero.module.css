@@ -1,0 +1,29 @@
+.headerWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 16.8rem;
+    gap: 10px;
+}
+
+.contentWrapper{
+    width: 34.7rem;
+    height: 6.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.imageStyle{
+    width: 13.25rem;
+    height: 13.25;
+}
