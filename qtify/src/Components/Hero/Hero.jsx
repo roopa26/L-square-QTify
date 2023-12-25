@@ -5,11 +5,11 @@ import styles from "./Hero.module.css";
 const HeroSection = () =>{
     return(
         <div className={styles.headerWrapper}>
-            <div className={styles.contentWrapper}>
-                <div className={styles.content}>100 Thousand Songs, ad-free</div>
-                <div className={styles.content}>Over thousands podcast episodes</div>
+            <div>
+                <h1>100 Thousand Songs, ad-free</h1>
+                <h1>Over thousands podcast episodes</h1>
             </div>
-            <div className={styles.imageStyle}>
+            <div>
                 <img src={HeadPhoneImage} alt='Head Phone'/>
             </div>
         </div>

@@ -3,6 +3,9 @@
     justify-content: space-between;
     align-items: center;
     background-color: var(--color-primary);
-    height: 4.6rem;
+    /* height: 4.6rem; */
+    height: 15%;
     padding: 1.25rem 2rem;
+    flex-wrap: wrap;
+    flex-grow: 1;
 }
