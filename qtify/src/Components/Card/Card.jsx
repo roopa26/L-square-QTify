@@ -6,7 +6,7 @@ import { Tooltip } from "@mui/material";
 function Card({data, type}){
     const getCard = () => {
         switch(type){
-            case "album" : debugger;
+            case "album" : 
             const {follows, image: albumImage, title: albumTitle, slug, songs} = data;
             return (   
                 <Tooltip title={`${songs.length} songs`} placement="top" arrow> 

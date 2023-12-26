@@ -32,3 +32,7 @@ input,button,textarea,select{
 #root,#__next{
   isolation: isolate;
 }
+
+.swiper-slide{
+  width :auto !important;
+}

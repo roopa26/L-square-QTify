@@ -5,7 +5,6 @@ import HeroSection from '../../Components/Hero/Hero';
 import CardSection from '../../Components/CardSection/CardSection';
 
 const HomePage = () => {
-    debugger;
     const {data} = useOutletContext();
     const {topAlbum, newAlbum, songs} = data;
 
