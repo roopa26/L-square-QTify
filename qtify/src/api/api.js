@@ -15,7 +15,7 @@ const fetchTopAlbums = async () => {
 
 const fetchNewAlbums = async () => {
     try{
-        const response = axios.get('https://qtify-backend-labs.crio.do/albums/new');
+        const response = axios.get(`${BACKEND_ENDPOINT}/albums/new`);
         return response;
     } 
     catch(ex){
@@ -25,13 +25,22 @@ const fetchNewAlbums = async () => {
 
 const fetchSongs = async () => {
     try{
-        const response = axios.get('https://qtify-backend-labs.crio.do/songs');
+        const response = axios.get(`${BACKEND_ENDPOINT}/songs`);
+        return response;
+    } 
+    catch(ex){
+        console.log(ex)
+    }   
+}
+
+const fetchFilter = async () => {
+    try{
+        const response = axios.get(`${BACKEND_ENDPOINT}/genres`);
         return response;
     } 
     catch(ex){
         console.log(ex)
     }
-    
 }
 
-export {fetchTopAlbums, fetchNewAlbums, fetchSongs};
+export {fetchTopAlbums, fetchNewAlbums, fetchSongs, fetchFilter};

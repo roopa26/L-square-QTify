@@ -19,3 +19,7 @@
     cursor: pointer;
     color: var(--color-primary);
   }
+
+  .titleWrapper{
+    margin-top: 15px;
+  }
