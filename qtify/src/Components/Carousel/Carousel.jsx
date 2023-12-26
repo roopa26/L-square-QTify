@@ -22,7 +22,7 @@ function Carousel({data, renderComponent}){
       >
         <CarouselLeftNavigation/>
         <CarouselRightNavigation/>
-        {data.map((element, index) => (
+        {data && data.map((element, index) => (
           <SwiperSlide key={element.id}>{renderComponent(element)}</SwiperSlide>
         ))}
       </Swiper>
